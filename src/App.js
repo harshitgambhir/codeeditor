@@ -135,7 +135,7 @@ function App() {
               </Select>
             </Col>
             <Col>
-              <Button icon={<CopyFilled style={{color: "#ff4d4f"}}/>} type="link" href={`http://localhost:3000`} target="_blank" style={{color: '#fff'}}>New</Button>
+              <Button icon={<CopyFilled style={{color: "#ff4d4f"}}/>} type="link" href={`/`} target="_blank" style={{color: '#fff'}}>New</Button>
             </Col>
             <Col>
               <Button onClick={() => setCode('')} icon={<CloseCircleFilled style={{color: "#ff4d4f"}}/>} type="link" style={{color: '#fff'}}>Clear</Button>
