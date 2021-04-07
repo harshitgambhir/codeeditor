@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+@import 'codemirror/lib/codemirror.css';
+@import 'codemirror/theme/ambiance.css';
+@import 'codemirror/theme/dracula.css';
+@import 'codemirror/theme/elegant.css';
+@import 'codemirror/theme/duotone-dark.css';
+@import 'codemirror/theme/material.css';
+@import 'codemirror/theme/midnight.css';
+@import 'codemirror/theme/the-matrix.css';
+@import 'codemirror/theme/twilight.css';
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  line-height: 64px;
+  background: #001529;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-collapse-header {
+  color: #fff!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-collapse-content-box {
+  color: #fff!important;
+  background: rgba(0,21,41,.9);
+  border: none;
+  padding-left: 40px!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-collapse-item, .ant-collapse-item:last-child>.ant-collapse-content {
+  border: none!important;
 }

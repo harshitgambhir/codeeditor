@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root, .App, .CodeMirror, .react-codemirror2, body, html, section {
+  height: 100%!important;
 }
